@@ -1,5 +1,5 @@
 import { menu, userRoles } from "~/constants";
-import { useCookieStore } from "~/stores/cookie";
+import { useCookieStore } from "~/stores/common/cookie";
 
 export default defineNuxtRouteMiddleware((to, _from) => {
   const localePath = useLocalePath();

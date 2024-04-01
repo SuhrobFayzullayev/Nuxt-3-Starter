@@ -1,9 +1,8 @@
 import { createFetch } from "@vueuse/core";
-import { useCookieStore } from "~/stores/cookie";
+import { useCookieStore } from "~/stores/common/cookie";
 
 export default defineNuxtPlugin(() => {
   const { apiURL } = useRuntimeConfig().public;
-
   const { getAccessToken } = useCookieStore();
 
   // fetch without token
@@ -11,7 +10,7 @@ export default defineNuxtPlugin(() => {
 
   // fetch with token
   const authFetch = createFetch({
-    baseUrl: `${apiURL}/api/dashboard`,
+    baseUrl: `${apiURL}/api/admin`,
     options: {
       beforeFetch: ({ options }) => {
         options.headers = {

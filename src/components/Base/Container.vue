@@ -1,7 +1,7 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    is?: "div" | "main" | "section" | "header" | "footer" | "aside";
+    is?: "div" | "main" | "section" | "nav" | "aside";
   }>(),
   {
     is: "div",

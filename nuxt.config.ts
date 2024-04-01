@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      title: "Smart Drop",
+      title: "Nuxt 3 Starter",
       link: [
         {
           rel: "apple-touch-icon",

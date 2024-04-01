@@ -3,7 +3,7 @@ export interface SelectOption {
   value: string | number;
 }
 
-export interface ITableColumn {
+export interface TableColumn {
   prop: string;
   label: string;
   width?: number;
@@ -13,20 +13,20 @@ export interface ITableColumn {
   formatter?: (row: any, column: any, cellValue: any, index: number) => any;
 }
 
-export interface IPagination {
+export interface Pagination {
   currentPage: number;
   perPage: number;
   total: number;
 }
 
-export interface IMenuItem {
+export interface MenuItem {
   label: string;
   path?: string;
   icon?: string;
-  children?: IMenuItem[];
+  children?: MenuItem[];
 }
 
-export interface IOption {
+export interface Option {
   phone: string;
   phone_2: string;
   email: string;
@@ -63,4 +63,11 @@ export type AviableOptionKeys =
   | "google_map"
   | "telegram";
 
-export type AviableOptions = Pick<IOption, AviableOptionKeys>;
+export type AviableOptions = Pick<Option, AviableOptionKeys>;
+
+export interface Locales {
+  id: AviableLocales;
+  code: AviableLocales;
+  file: string;
+}
+export type AviableLocales = "en";

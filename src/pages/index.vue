@@ -1,6 +1,5 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  Home Page
+  <BaseContainer is="main"> Main </BaseContainer>
 </template>
