@@ -1,0 +1,105 @@
+.tinymce-editor {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  h5 {
+    font-size: 0.83em;
+  }
+  h6 {
+    font-size: 0.67em;
+  }
+
+  /* Paragraph */
+  p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  /* Anchor */
+  a {
+    /* Default color for links can vary */
+    font-weight: 700;
+  }
+
+  /* Images */
+  img {
+    border-style: none; /* Images do not have borders by default */
+  }
+
+  /* Unordered and Ordered Lists */
+  ul,
+  ol {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 40px; /* Default padding for list indentation */
+  }
+
+  li {
+    margin-bottom: 0.25em; /* Space between list items */
+  }
+
+  /* Table */
+  table {
+    border-collapse: collapse; /* Borders are collapsed into a single border */
+  }
+
+  th,
+  td {
+    border: 1px solid black; /* Default border for table cells */
+    padding: 0.5em; /* Padding inside cells */
+  }
+
+  /* Input, TextArea, Button, Select, and Option */
+  input,
+  textarea,
+  button,
+  select,
+  option {
+    margin: 0; /* No default margin */
+    padding: 0.25em; /* Default padding */
+    font-family: inherit; /* Inherits font family from parent */
+    font-size: 100%; /* Inherits font size from parent */
+    line-height: 1.15; /* Default line height */
+  }
+
+  /* Specific to Form Elements */
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  textarea {
+    border: 1px solid #ccc; /* Default border color */
+    background-color: white; /* Default background */
+  }
+
+  button,
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #eee; /* Default background */
+    border: 1px solid #ccc; /* Default border */
+    padding: 0.5em 1em; /* Padding inside the button */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+  }
+
+  /* Note: This is a general representation. Browsers may have slightly different defaults. */
+}

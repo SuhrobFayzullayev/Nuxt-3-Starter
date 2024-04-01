@@ -1,0 +1,159 @@
+{
+  "btn": {
+    "login": "Log in",
+    "logout": "Log out",
+    "save": "Save",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "send": "Send",
+    "apply_now": "Apply Now",
+    "create": "Create",
+    "update": "Update",
+    "more": "More",
+    "load_more": "Load More",
+    "back_home": "Back home"
+  },
+  "help": {
+    "field_is_required": "Field is required",
+    "password_min_4": "Password must be at least 4 characters",
+    "upload_eror_image": "Error uploading image",
+    "invalid_json": "Invalid JSON",
+    "must_be_russian_number": "Must be a Russian number",
+    "field_must_be_url": "Field must be URL link",
+    "field_must_be_google_map_iframe": "Field must be google map iframe tag",
+    "field_must_be_youtube_iframe": "Field must be youtube iframe tag"
+  },
+  "common_schema": {
+    "login": "Login",
+    "password": "Password",
+    "your_fullname": "Your full name",
+    "fullname": "Full name",
+    "your_phone": "Your phone number",
+    "email": "E-mail",
+    "address": "Address",
+    "phone": "Phone",
+    "landmarks": "Landmarks",
+    "comment": "Comment",
+    "title": "Title",
+    "link": "Link",
+    "upload": "Upload { type }",
+    "sub_title": "Sub Title",
+    "image": "Image",
+    "icon": "Icon",
+    "images": "Images",
+    "date_picker": "Date Picker",
+    "key": "Key",
+    "value": "Value",
+    "select_or_prompt": "Select or Enter",
+    "show": "Show { type }",
+    "content": "Content",
+    "meta_title": "Meta Title",
+    "meta_description": "Meta Description",
+    "footer_content": "Footer Content",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "telegram": "Telegram",
+    "vcontacte": "VKontakte",
+    "google_map": "Google Map",
+    "message": "Message",
+    "info": "Information",
+    "social_media": "Social media",
+    "video_title": "Video Title",
+    "video_link": "Video Link",
+    "meta_keyword": "Meta Keywords",
+    "upload_images": "Upload Images",
+    "upload_file": "Upload File",
+    "price": "Price",
+    "date": "Date"
+  },
+  "status_code": {
+    "401": {
+      "label": "Authorization Error",
+      "desc": "Request failed because you have no valid credentials to submit the request"
+    },
+    "403": {
+      "label": "Access Denied",
+      "desc": "Access to this resource is restricted on the server"
+    },
+    "404": {
+      "label": "Sorry! Page Not Found",
+      "desc": "The page you are looking for does not exist. It may have been moved or deleted"
+    },
+    "500": {
+      "label": "Internal Server Error",
+      "desc": "An unexpected situation occurred on the server preventing the request from being fulfilled"
+    }
+  },
+  "role": {
+    "admin": "Administrator"
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About company",
+    "hajj": "Hajj",
+    "umrah": "Umrah",
+    "tours_for_muslims": "Tours for Muslims",
+    "flights": "Flights",
+    "services": "Services",
+    "contacts": "Contacts",
+    "slider": "Slider",
+    "pages": "Pages",
+    "options": "Options",
+    "media": "Media",
+    "catalog": "Catalog",
+    "helpful_informations": "Helpful Informations",
+    "products": "Products",
+    "photo_gallery": "Photo Gallery",
+    "video_gallery": "Video Gallery",
+    "articles": "Articles",
+    "portfolio": "Portfolio"
+  },
+  "lang": {
+    "ru": "RU",
+    "en": "EN",
+    "uz": "UZ"
+  },
+  "currency": {
+    "uzs": "UZS"
+  },
+  "general": {
+    "all_rights_reserved": "{ name } All rights reserved",
+    "copyright": "© Copyright { current_date } - Web Development SOS Group",
+    "special_services": "Special Services",
+    "our_advantages": "Our advantages",
+    "useful_information": "Useful Information",
+    "gallery": "{ type }gallery",
+    "feedback": "Feedback",
+    "contact_us": "Contact Us",
+    "video": "Video",
+    "foto": "Photo",
+    "your": "Your",
+    "required_items_for_trip": "Required Items for { trip_place } Trip",
+    "tour_desc": "Tour Description",
+    "we_are_on_the_map": "We Are on the Map",
+    "from": "from",
+    "desc": "Tour Description",
+    "optional": "Optional",
+    "guidelines_for_performing_umrah": "Guidelines for Performing Umrah",
+    "all": "All { type }",
+    "articles": "articles",
+    "photos": "photos",
+    "videos": "videos",
+    "company_in_numbers": "Company in numbers",
+    "description": "Description",
+    "submit_your_application": "Submit your application",
+    "partners": "Partners",
+    "upload_image": "Upload Image",
+    "upload_video_image": "Upload Video Image"
+  },
+  "message": {
+    "your_message_has_been_sent_successfully": "Your message has been sent successfully",
+    "no_data": "No data available",
+    "no_match_text": "No matching data found",
+    "delete": "This item will be permanently deleted. Continue?",
+    "warning": "Warning",
+    "delete_canceled": "Deletion canceled",
+    "delete_complated": "Deletion completed",
+    "updated_successfully": "Updated successfully"
+  }
+}

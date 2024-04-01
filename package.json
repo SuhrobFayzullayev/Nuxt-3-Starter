@@ -1,0 +1,73 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.15.5",
+  "engines": {
+    "node": ">=21.7.1"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "nuxt prepare",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "cleanup": "nuxt cleanup && pnpm postinstall",
+    "upgrade:nuxt": "nuxt upgrade --force",
+    "test": "vitest --config vitest.config.ts",
+    "lint": "eslint . --ignore-path .gitignore",
+    "lint:fix": "pnpm lint --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lf": "pnpm lint:fix && pnpm format:fix",
+    "cleanup:nm": "nuxt cleanup && rimraf node_modules && pnpm install"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "0.5.1",
+    "@tinymce/tinymce-vue": "^5",
+    "@vee-validate/nuxt": "4.12.5",
+    "@vee-validate/zod": "4.12.5",
+    "@vueuse/core": "10.8.0",
+    "@vueuse/nuxt": "10.7.2",
+    "nuxt-swiper": "1.2.2",
+    "pinia": "^2.1.7",
+    "tinymce": "6.8.3",
+    "vee-validate": "4.12.5",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config-vue": "0.42.1",
+    "@commitlint/cli": "18.4.3",
+    "@commitlint/config-conventional": "18.4.3",
+    "@element-plus/nuxt": "1.0.7",
+    "@nuxt/devtools": "1.0.5",
+    "@nuxtjs/i18n": "8.1.0",
+    "@types/node": "20.10.4",
+    "autoprefixer": "10.4.16",
+    "element-plus": "2.5.5",
+    "eslint": "8.55.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.0.1",
+    "lint-staged": "15.2.0",
+    "nuxt": "^3.10.1",
+    "nuxt-svgo": "4.0.0",
+    "postcss": "^8.4.38",
+    "prettier": "3.1.1",
+    "rimraf": "5.0.5",
+    "sass": "1.69.5",
+    "simple-git-hooks": "2.9.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "5.3.3",
+    "vitest": "1.0.4",
+    "vue-tsc": "1.8.25"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx --no -- commitlint --edit \"$1\"",
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{vue,js,cjs,mjs,ts,cts,mts,json,md,yaml}": "pnpm lint",
+    "*": "pnpm format"
+  }
+}

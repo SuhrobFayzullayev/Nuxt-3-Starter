@@ -1,0 +1,96 @@
+* {
+  line-height: 1.4 !important;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.-translate-xy {
+  transform: translate(-50%, -50%);
+}
+
+.truncate-dots {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[type="text"],
+[type="email"],
+[type="password"],
+[type="number"],
+[type="tel"],
+[multiple],
+textarea,
+select {
+  &.el-input__inner:focus {
+    box-shadow: none;
+    border: none;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.custom-container {
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+/* responsive */
+@media (min-width: 576px) {
+  .custom-container {
+    max-width: 576px !important;
+  }
+}
+@media (min-width: 640px) {
+  .custom-container {
+    max-width: 640px !important;
+  }
+}
+@media (min-width: 768px) {
+  .custom-container {
+    max-width: 768px !important;
+  }
+}
+@media (min-width: 895px) {
+  .custom-container {
+    max-width: 895px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .custom-container {
+    max-width: 1024px !important;
+  }
+}
+@media (min-width: 1280px) {
+  .custom-container {
+    max-width: 1280px !important;
+  }
+}
+@media (min-width: 1320px) {
+  .custom-container {
+    max-width: 1320px !important;
+  }
+}
